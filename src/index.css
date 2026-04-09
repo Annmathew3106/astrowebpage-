@@ -283,7 +283,12 @@ body {
 .content-section h2 {
   margin: 0;
   font-size: clamp(2rem, 4vw, 3rem);
-  color: #d9f9eb;
+  color: #e8fff4;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-shadow:
+    0 0 10px rgba(156, 230, 197, 0.4),
+    0 0 24px rgba(31, 106, 78, 0.28);
 }
 
 .content-section p {

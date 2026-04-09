@@ -117,7 +117,6 @@ export default function App() {
 
         <section id="announcements" className="section content-section">
           <h2>Announcements</h2>
-          <p>Publish quick updates, notices, and important event information.</p>
           <div className="announcement-options">
             <article className="announcement-card">
               <h3>Astro CET Grand Opening</h3>
