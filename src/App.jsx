@@ -31,14 +31,14 @@ export default function App() {
         : index === 1
           ? "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtO1yvDrs3r_cNd5mU__aSIeTvcnqANb55cA&s"
           : index === 2
-            ? "https://astrocet.vercel.app/images/gallery/galleryimg2.JPG"
+            ? "https://astrocet.vercel.app/images/pastevents/workhopai.jpg"
             : index === 3
-              ? "https://astrocet.vercel.app/images/gallery/galleryimg7.JPG"
+              ? "https://astrocet.vercel.app/images/pastevents/solarprobing.jpg"
               : index === 4
                 ? "https://tiqr.events/_next/image/?url=https%3A%2F%2Ftiqr-events.sgp1.cdn.digitaloceanspaces.com%2Ftiqr-events%2Fmedia%2Fimages%2Fbd481b5f41be4a1396785ea81f1124fa-astro_photography.png&w=1920&q=75"
                 : index === 5
                   ? "https://astrocet.vercel.app/images/pastevents/GBFKoutreach.jpg"
-        : "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=900&q=80",
+                  : "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=900&q=80",
   }));
 
   return (
@@ -181,7 +181,7 @@ export default function App() {
             </p>
           </div>
         </section>
-      </main>
+      </main >
     </>
   );
 }
